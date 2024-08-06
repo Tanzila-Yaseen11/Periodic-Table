@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gupter:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* PERIODIC TABLE */
+
+.a {
+    background-color: rgb(4, 4, 165);
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.b {
+    background-color: rgb(89, 16, 157);
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.c {
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.d {
+    background-color: rgb(9, 9, 45);
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.e {
+    background-color: rgb(33, 8, 33);
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.f {
+    background-color: rgb(227, 73, 18);
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.g {
+    background-color: rgb(246, 165, 16);
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.h {
+    background-color: rgb(20, 124, 165);
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.i {
+    background-color: rgb(18, 236, 18);
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.j {
+    background-color: rgb(99, 97, 97);
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.k {
+    background-color: rgb(5, 79, 109);
+    color: wheat;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+.main {
+
+    font-family: "Gupter", serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main2 {
+    width: 100%;
+    min-height: 100vw;
+    background-color: black;
+    color: white;
+}
+
+@media(min-width: 320px) and (max-width: 800px) {
+    .main {
+        display: grid;
+        grid-template-columns: repeat(19, auto);
+        grid-template-rows: repeat(8, auto);
+        grid-gap: 0.19em;
+        font-size: 0.4em;
+    }
+
+    .main2 {
+        text-align: center;
+        color: white;
+        font-size: 0.5rem !important;
+        margin-bottom: 0.2em;
+    }
+}
+
+.k {
+    background-color: rgb(5, 79, 109);
+    color: white;
+}
+
+.d {
+    background-color: rgb(9, 9, 45);
+    color: white;
+}
+
+.main2 {
+    width: auto;
+}
